@@ -1,0 +1,116 @@
+
+// ロゴの背景切り替え
+@keyframes mv-logoArea{
+  0%{
+    opacity: 1;
+    
+  }
+  25%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+}
+
+@keyframes mv-logoArea-black{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 0;
+  }
+}
+
+// ロゴ切り替え
+@keyframes mv-logo-black{
+  0%{
+    opacity: 1;
+  }
+  25%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+}
+
+@keyframes mv-logo-white{
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  75%{
+    opacity: 0;
+  }
+}
+
+// メインビジュアル縦にループ
+@keyframes bg-loop{
+  0% {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+
+@keyframes bg-loop2{
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200%);
+  }
+}
+
+// MADE OF IMAGINATION アニメーション
+@keyframes imagination-loop{
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+@keyframes imagination-loop2{
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+
+
+//　各画像の切り替え
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+ 100% { opacity: 0; }
+}
+@keyframes fadeIn-after {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+ 100% { opacity: 0; }
+}

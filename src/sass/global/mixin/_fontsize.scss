@@ -1,0 +1,13 @@
+@use "../mixin/media" as media;
+
+
+@mixin font_size($pc_size, $tb_size, $sp_size){
+    font-size: $pc_size * 1px;
+    @include media.mq(md){
+        font-size: $sp_size * 1px;
+    }
+    @include media.mq(lg){
+        font-size: $tb_size * 1px;
+    }
+    
+}

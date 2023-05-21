@@ -1,0 +1,13 @@
+@use "../mixin/media" as media;
+
+
+@mixin padding_tb($pc_size, $tb_size, $sp_size){
+    padding: $pc_size * 1px 20px;
+    @include media.mq(md){
+        padding: $sp_size * 1px 20px;
+    }
+    @include media.mq(lg){
+        padding: $tb_size * 1px 20px;
+    }
+    
+}
