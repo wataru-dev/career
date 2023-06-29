@@ -1,2 +1,21 @@
 @use "../../global" as *;
 
+.u-fonts{
+    &-size{
+        &18{
+            font-size: 18px;
+        }
+        &20{
+            font-size: 24px;
+        }
+        &24{
+            font-size: 24px;
+        }
+        &38{
+            font-size: 38px;
+        }
+        &66{
+            font-size: 66px;
+        }
+    }
+}

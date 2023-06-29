@@ -1,2 +1,28 @@
 @use "../global" as *;
 /* header */ 
+
+.l-header{
+    &-inner{
+        height: 100px;
+        display:  flex;
+        justify-content: space-between;
+        background: transparent;
+        position: fixed;
+        z-index: 10000;
+        &__logo{
+            width: 360px ;
+        }
+    }
+    &-contact{
+        width: 100px;
+        position: fixed;
+        top: 50%;
+        right: 0 ;
+        transform: translate(0, -50%);
+        z-index: 10000;
+        &:hover{
+            opacity: 0.7;
+            transition: 0.5s;
+        }
+    }
+}

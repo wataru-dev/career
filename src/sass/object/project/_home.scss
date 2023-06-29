@@ -1,11 +1,28 @@
 /* home */
 @use "../../global" as *;
 
-.p-home-image{
-    background: url(../images/img05.png) no-repeat;
-    width: 1000px;
-    height:  500px;
-    margin: 0 auto;
-    
+
+.p-home-mv{
+    &Inner{
+        position: relative;
+        &__content{
+            &__image{
+                width: 100%;
+            }
+            &__contact{
+                position: absolute;
+                bottom: 5vw;
+                left: 8vw;
+                width: 35vw;
+                &:hover{
+                    opacity: 0.7;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+.p-home-reason{
+    background: url(../images/dot_bg.png) repeat;
 }
 
